@@ -1,7 +1,7 @@
 # Coffeshop Site
 
 ## General info
-This project is the answer for technical test at dumbways.
+This project is my coffeshop landing page wannabe. I love brewing coffee
 	
 ## Technologies
 Project is created with:
