@@ -1,0 +1,143 @@
+body {
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Navbar section */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+}
+
+/* Title section */
+#title {
+    background-color: #f5f2e7;
+    text-align: left;
+}
+
+.big-heading {  
+    font-family: 'Andada Pro', serif;
+    font-size: 2.5rem;  
+    line-height: 1.5;  
+    font-weight: 700;
+}
+
+.cover-img {
+    width: 30%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.download-button {
+    margin: 5% 5% 3% 0;
+}
+
+/* Pros section */
+#pricing {
+    padding: 7% 15%;
+    
+}
+
+.h2-pricing {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+/* Testimonial section */
+#testimonials {
+    background-color: #f5f2e7;
+    
+}
+
+#press {
+    background-color: #f5f2e7;
+    margin-bottom: 20px;
+    
+}
+
+.testimonial-img {
+    width: 14%;
+    margin: 3% 5% 3%;
+}
+
+.testimonial-text {
+    padding: 7% 15%;
+}
+
+/* Menu section */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#features {
+    padding: 5% 3% 5% 3%;
+    position: relative;
+    background-color: #fff;
+    
+}
+
+.menu-pic {
+    width: 50%;
+    margin: 5% auto;
+    padding-bottom: 2rem;
+    color: #b89723;
+}
+
+.menu-pic:hover {
+    color: #a08217;
+}
+
+.menu-desc {
+    
+    padding: 3%;
+}
+
+/* CTA section */
+#cta {
+    padding: 10% 15%;
+    background-color: #f5f2e7;
+    
+}
+
+.subs {
+    padding-top: 5%;
+}
+
+/* Footer section */
+#footer {
+    padding-top: 5%;
+    font-weight: 550;
+}
+
+.foot {
+    margin: 3% 1% 20px;
+    color: #8dbbca;
+}
+
+.foot:hover {
+    color: #526a72;
+}
+
+
+@media (max-width: 980px) {
+    #title {
+        text-align: center;
+    }
+
+    .cover-img {
+        position: static;
+        width: 50%;
+    }
+}
